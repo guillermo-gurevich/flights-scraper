@@ -8,7 +8,7 @@ from datetime import datetime
 
 URL = 'https://www.turismocity.com.ar'
 
-s = Service('C:/Users/Guille/Documents/chromedriver/chromedriver.exe')
+s = Service() #chromedriver.exe path
 options = webdriver.ChromeOptions() 
 options.add_experimental_option('excludeSwitches', ['enable-logging']) 
 driver = webdriver.Chrome(service=s, options=options)
