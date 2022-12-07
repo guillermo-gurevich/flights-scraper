@@ -37,7 +37,7 @@ input_from.send_keys(city_from)
 sleep(1)
 driver.find_element(By.XPATH, '//*[@id="flights-tab-container"]/form/div[2]/div/div[2]/div/div/span/span/span[2]/ul/li[1]/div[2]/div[2]').click()
 
-# Selecting the 'haven't decided a date yet' checkbox
+# Select the 'no date' checkbox
 checkbox = driver.find_element(By.XPATH, '//div[contains(@class,"tc-checkbox")]')
 checkbox.click()
 
